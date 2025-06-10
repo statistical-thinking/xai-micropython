@@ -19,4 +19,4 @@ XAI-MICROPYTHON is so lightweight that it can also be run on a microcontroller s
 XAI-MICROPYTHON is designed to be used in (academic) teaching without any technical requirements. A preselection of statistical functions as well as machine learning and deep learning methods are available for this purpose. However, their functionality and the addition of further algorithms and methods are a primary goal of XAI-MICROPYTHON. Interested users can therefore contact me at any time to make a corresponding contribution to the project :-)
 
 # License
-The current version 1.0.0 of XAI-MICROPYTHON is available under **MIT License**.
+The current version 1.0.1 of XAI-MICROPYTHON is available under **MIT License**.
