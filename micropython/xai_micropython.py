@@ -505,41 +505,19 @@ import math
 
 # ReLU
 def relu(x):
-    y = []
-    for i in range(len(x)):
-        if x[i] >= 0:
-            y.append(x[i])
-        else:
-            y.append(0)
-    return y
+    return [max(0, val) for val in x]
 
 # Leaky ReLU
 def leaky_relu(x, alpha=0.01):
-    p = []
-    for i in range(len(x)):
-        if x[i] >= 0:
-            p.append(x[i])
-        else:
-            p.append(alpha * x[i])
-    return p
+    return [val if val >= 0 else alpha * val for val in x]
 
 # Tanh
 def tanh(x):
-    t = [(math.exp(x[val]) - math.exp(-x[val])) / (math.exp(x[val]) + math.exp(-x[val])) for val in range(len(x))]
-    return t
+    return [(math.exp(val) - math.exp(-val)) / (math.exp(val) + math.exp(-val)) for val in x]
 
 # Sigmoid
 def sigmoid(x):
-    z = [1 / (1 + math.exp(-x[val])) for val in range(len(x))]
-    return z
-
-# Softmax
-def softmax(x):
-    max_x = max(x[val])
-    exp_x = [math.exp(val - max_x) for val in range(len(x))]
-    sum_exp_x = sum(exp_x)
-    s = [j / sum_exp_x for j in exp_x]
-    return s
+    return [1 / (1 + math.exp(-val)) for val in x]
 
 # Single Neuron
 def neuron(x, w, b, activation):
@@ -556,8 +534,6 @@ def neuron(x, w, b, activation):
     elif activation == "leaky_relu":
         yp = relu([tmp[i] + b for i in range(len(tmp))])
     elif activation == "tanh":
-        yp = tanh([tmp[i] + b for i in range(len(tmp))])
-    elif activation == "softmax":
         yp = tanh([tmp[i] + b for i in range(len(tmp))])
     else:
         print("Function unknown!")
