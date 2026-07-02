@@ -637,7 +637,7 @@ def classification_report(y, ypred):
 # Confusion Matrix
 ypred_class = [1 if i > 0.5 else 0 for i in ypred[0]]
 print(ypred_class)
-print(classification_report(y, ypred_class))
+classification_report(y, ypred_class)
 
 #########################
 # 8. Deep Learning - II #
