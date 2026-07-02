@@ -1,13 +1,16 @@
 """
 XAI-MicroPython is an educational framework for developing and
-executing explainable artificial neural networks on
+executing explainable machine learning and deep learning algorithms on
 MicroPython-compatible microcontrollers.
 
 The framework is designed to support teaching and learning of the
-fundamentals of neural networks on resource-constrained hardware.
-It allows learners to engage directly with network architecture,
-weights, biases, activation functions, and inference without
-depending on high-level machine learning frameworks.
+fundamentals of artificial intelligence on resource-constrained
+hardware. It introduces regression, classification, clustering, and
+factor analysis from machine learning, as well as the architecture and
+operation of artificial neural networks from deep learning. By running
+directly on microcontrollers, learners can engage with the underlying
+mathematical and statistical concepts without depending on high-level
+machine learning frameworks.
 """
 
 ######################
