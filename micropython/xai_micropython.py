@@ -274,7 +274,7 @@ print("\nPredicted Class:", classification)
 # 5. Machine Learning - III (Clustering) #
 ##########################################
 
-# Girth (x1), Height (x2) and Class (y) of Black Cherry Trees and Simulated Trees
+# Girth (x1), Height (x2) and Class (y) of Black Cherry Trees (0) and Simulated Trees (1), which are shown only as dummy code for illustrative purposes
 X = [
     [8.3, 70], [8.6, 65], [8.8, 63], [10.5, 72], [10.7, 81], [10.8, 83], [11.0, 66], [11.0, 75], [11.1, 80],
     [11.2, 75], [11.3, 79], [11.4, 76], [11.7, 69], [12.0, 75], [12.9, 74], [5.2, 45], [5.5, 48], [6.0, 50],
