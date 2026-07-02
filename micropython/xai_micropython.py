@@ -764,8 +764,6 @@ def predict(x):
     out2, _ = dense_forward(out1, w2, b2, 'sigmoid')
     return 1 if out2[0] > 0.5 else 0
 
-ypred = [predict(xi) for xi in X]
-
 # Confusion Matrix Basics
 def classification_report(ytrue, ypred):
     TP = TN = FP = FN = 0
