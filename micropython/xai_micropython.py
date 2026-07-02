@@ -73,7 +73,7 @@ def r_squared(x, y, a, b):
     ss_res = sum((y[i] - (a + b * x[i])) ** 2 for i in range(len(y)))
     return 1 - ss_res / ss_tot
 
-# Apllication Examples
+# Application Examples
 print("Covariance:", covariance(x, y))
 print("Correlation:", correlation(x, y))
 
