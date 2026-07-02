@@ -476,6 +476,9 @@ for i, row in enumerate(loadings):
 # 7. Deep Learning - I #
 ########################
 
+# Libraries
+import math
+
 # Standardized independent variables (X) and dichotomized dependent variable (y)
 X = [[ 0.81575475, -0.21746808, -0.12904165, -0.65303909],
          [ 0.05761837,  1.59476592,  0.84485761,  1.71304456],
@@ -499,9 +502,6 @@ X = [[ 0.81575475, -0.21746808, -0.12904165, -0.65303909],
          [ 0.5125002 ,  0.08457092, -0.37251647, -0.88964745]]
 
 y = [0,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0]
-
-# Libraries
-import math
 
 # ReLU
 def relu(x):
@@ -643,6 +643,10 @@ print(classification_report(y, ypred_class))
 # 8. Deep Learning - II #
 #########################
 
+# Libraries
+import random
+import math
+
 # Standardized independent variables (X) and dichotomized dependent variable (y)
 X = [[ 0.81575475, -0.21746808, -0.12904165, -0.65303909],
          [ 0.05761837,  1.59476592,  0.84485761,  1.71304456],
@@ -666,10 +670,6 @@ X = [[ 0.81575475, -0.21746808, -0.12904165, -0.65303909],
          [ 0.5125002 ,  0.08457092, -0.37251647, -0.88964745]]
 
 y = [0,1,0,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0]
-
-# Libraries
-import random
-import math
 
 # Sigmoid
 def sigmoid(x):
