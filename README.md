@@ -19,7 +19,11 @@ XAI-MICROPYTHON can be used directly in the browser as **Web Version** or **Jupy
 XAI-MICROPYTHON is so lightweight that it can also be run on a microcontroller such as the **Raspberry Pi Pico 2**. To do this, simply transfer **xai_micropython.py** to the microcontroller via ([THONNY](https://thonny.org/)), for example, and execute it. In addition, devices such as the [PICOCALC](https://www.clockworkpi.com/picocalc) can be used to **create your own learning devices** with XAI-MICROPYTHON. 
 
 # Community Guidelines
-XAI-MICROPYTHON is designed to be used in (academic) teaching without any technical requirements. A preselection of statistical functions as well as machine learning and deep learning methods are available for this purpose. However, their functionality and the addition of further algorithms and methods are a primary goal of XAI-MICROPYTHON. Interested users can therefore contact me at any time to make a corresponding contribution to the project :-)
+XAI-MICROPYTHON is designed to be used in (academic) teaching without any technical requirements. A preselection of statistical functions as well as machine learning and deep learning methods are available for this purpose. However, their functionality and the addition of further algorithms and methods are a primary goal of XAI-MICROPYTHON. Interested users can therefore contact me at any time in order to...
+
+* make a corresponding contribution to the project,
+* report issues or problems with the software,
+* seek support :-)
 
 # License
 The current version 1.5.0 of XAI-MICROPYTHON is available under **MIT License**.
