@@ -1,7 +1,7 @@
 ![title](images/xai_micropython.png)
 
 # XAI-MICROPYTHON
-Explainable Artificial Intelligence (XAI) with MicroPython - a comprehensive codebook that covers relevant topics in AI **from statistical basics to machine learning and deep learning** and makes them **executable in MicroPython** (suitable for microcontrollers and devices like the PicoCalc) and live in your browswer.
+Explainable Artificial Intelligence (XAI) with MicroPython - a **comprehensive codebook** covering relevant topics in AI, from **statistical basics** to **machine learning** and **deep learning**, and making them executable in **MicroPython** (suitable for microcontrollers and devices such as the PicoCalc) and live in your browser.
 
 # Author
 Prof. Dr. habil. Dennis Klinkhammer
